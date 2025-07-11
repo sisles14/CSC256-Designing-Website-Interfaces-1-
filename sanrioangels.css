@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    align-items: center;
+    background-color: #9E7BB5;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Gorditas', cursive;
+    font-size: 50px;
+    color: #FFF0F5;
+    text-shadow: 2px 2px 4px #b89bd2;
+    letter-spacing: 1px;
+}
+
+.slideshow {
+    text-align: center;
+}
+
+#slide {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid #BDB5D5;
+}
+
+.slideshow-controls {
+    margin-top: 20px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #E6E6FA;
+    border: none;
+    color: #9E7BB5;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #D8D0E0;
+}
