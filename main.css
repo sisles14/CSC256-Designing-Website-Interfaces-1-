@@ -1,0 +1,18 @@
+body{
+    padding-top: 20px;
+    background-color: #5D3F6A;
+}
+
+h1 {
+    color: #9E7BB5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    color: #9E7BB5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+}
