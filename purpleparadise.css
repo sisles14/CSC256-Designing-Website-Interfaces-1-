@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(to bottom right, #9E7BB5, #D8BFD8, #9E7BB5); /* Gradient Backgorund */
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for User, Points, Health, Damage, & Weapon */
+.form-container {
+    background: #9E7BB5;
+    border: 2px solid #77589A;
+    border-radius: 16px;
+    padding: 30px 25px;
+    box-shadow: 0 0 20px #D8B7FF;
+    color: white;
+    width: 360px;
+    backdrop-filter: blur(10px);
+    }
+
+/* Title CSS (Purple Paradise) */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 5px #A353C5;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* For Text Inside Input Containers */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: none;
+    background: #F5EDFF;
+    color: #705186;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Button */
+button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    background-color: #9A6FBF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #7E5D9F;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background-color: #B275F7;
+  transform: scale(1.03);
+}
+
+/* For Placeholder Text */
+::placeholder {
+    color: #7B4AAD;
+    font-style: italic;
+}
